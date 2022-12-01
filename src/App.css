@@ -1,0 +1,26 @@
+:root {
+  --black: #141414;
+  --white: #eef0f2;
+  --yellow: #eec643;
+  --green: #419d78;
+  --gray: #bebfc6;
+  --gray-dark: #a8a9b3;
+
+  background-color: var(--black);
+  color: var(--white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, monospace, cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
